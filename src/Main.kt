@@ -54,4 +54,5 @@ fun ex7(status: String) {
 
 fun ex8(numero: Int){
     if(numero in 5..15) println("Dentro do intervalo") else println("Fora do intervalo.")
+
 }
