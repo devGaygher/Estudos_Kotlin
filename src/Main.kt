@@ -30,7 +30,7 @@ fun ex3(number: Int){
 }
 
 fun ex4(z: Int){
-    if (z >= 20 && z <= 30) println("Entre 20 e 30.")
+    if (z in 20..30) println("Entre 20 e 30.")
 }
 
 fun ex5(isActive: Boolean){
@@ -43,7 +43,9 @@ fun ex6(idade: Int){
         println("Criança")
     } else if (idade in 13..17){
         println("Adolescente")
-    } else println("Adulto")
+    } else {
+        println("Adulto")
+    }
 }
 
 fun ex7(status: String) {
